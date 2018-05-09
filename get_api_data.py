@@ -38,6 +38,9 @@ def create_movie_player_object(movie_search):
 	# Get the movie properties
 	movie_search.info()
 	# Set the movie atrributes from the movie class
-	movie_player_object = movie.Movie(movie_search.title, movie_search.overview, make_poster_links(movie_search.poster_path), make_trailer_link(movie_search) )
+	movie_player_object = movie.Movie( movie_search.title,
+	 movie_search.overview, 
+	 make_poster_links(movie_search.poster_path),
+	 make_trailer_link(movie_search) )
 	return movie_player_object
 
