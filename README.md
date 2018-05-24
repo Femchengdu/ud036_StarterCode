@@ -16,8 +16,8 @@ To use the application do the following:
 - cd into the porject directory (directory/name)
 - run the following file to start the program (starter_file.py)
 - Instead of hardcoding my TMDB_API_KEY, I have set it in an env.py file.
-- You need to create this file in the root of the repository and then do 
-- the following:
+- You need to create this file in the root of the repository and then add 
+- the following lines to the code:
 
 
 ```sh
