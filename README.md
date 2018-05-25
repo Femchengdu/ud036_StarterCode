@@ -3,7 +3,9 @@
 This movie trailer website receives movie data via an API and displays the movie traier information in a browser.
 Its key features include:
 
-- Getting the movie information via an API
+- Getting the movie information via an [TMDBAPI](https://www.themoviedb.org/documentation/api)
+- Note you would be required to create an account to get the API keys
+- If you don't want to get API keys from TMDB you can preview the site by opening the fresh_tomatoes.html file
 - Dynamically generating the movie instances using python classes
 - Displaying the move information in a HTML file via a webbrowser
 
@@ -30,6 +32,11 @@ os.environ['TMDB_API_KEY'] = 'insert_your_tmdb_api_key_here'
 
 ```sh
 $ python entertainment_center.py
+```
+- Also run the following code to ensure that the tmdb simple library is on your computer
+
+```sh
+$ pip install tmdbsimple
 ```
 ### Todos
 

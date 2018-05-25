@@ -73,7 +73,7 @@ def create_movie_list(tmdb_movie_ids):
 
 
 # List of movie ids from the tmdb database
-tmdb_movie_ids = [603, 807, 629]
+tmdb_movie_ids = [603, 807, 629, 8195, 315837, 9482, 20526, 68718, 278]
 
 # Create a list of tmdb movie objets
 tmdb_movies = create_movie_list(tmdb_movie_ids)
