@@ -26,7 +26,11 @@ import os
 os.environ['TMDB_API_KEY'] = 'insert_your_tmdb_api_key_here'
 ```
 
+- Then run the follwoing in the command line to generate the html file:
 
+```sh
+$ python entertainment_center.py
+```
 ### Todos
 
 - Improve the look and feel of the application through bootstrap
